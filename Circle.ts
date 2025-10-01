@@ -1,4 +1,7 @@
-class Circle extends ShapeInfo implements Shape{
+import {Shape} from "./Shape";
+import { ShapeInfo } from "./ShapeInfo";
+
+export class Circle extends ShapeInfo implements Shape{
   constructor(private r:number){
      super("cyrcle");
   }

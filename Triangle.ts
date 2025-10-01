@@ -1,4 +1,7 @@
- class Triangle extends ShapeInfo implements Shape{
+ import {Shape} from "./Shape";
+ import { ShapeInfo } from "./ShapeInfo";
+ 
+ export class Triangle extends ShapeInfo implements Shape{
    constructor(private a: number, private b: number, private c: number){
      super("triangle");
    }

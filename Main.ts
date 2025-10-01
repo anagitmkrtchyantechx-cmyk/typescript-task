@@ -1,3 +1,8 @@
+import { Triangle } from "./Triangle"; 
+import { Circle } from "./Circle";
+import { Rectangle } from "./Rectangle";
+import {Shape} from "./Shape";
+
 const t = new Triangle(3, 4, 5);
 const c = new Circle(10);
 const r = new Rectangle(4, 6);

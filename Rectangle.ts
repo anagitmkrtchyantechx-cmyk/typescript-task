@@ -1,4 +1,7 @@
-class Rectangle extends ShapeInfo implements Shape{
+import {Shape} from "./Shape";
+import { ShapeInfo } from "./ShapeInfo";
+
+export class Rectangle extends ShapeInfo implements Shape{
   constructor(private a: number, private b: number){
     super("rectiangle");
   }
